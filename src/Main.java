@@ -16,6 +16,7 @@ public class Main {
         TaxiDriver taxiDriver = new TaxiDriver("Akyl", 25, 23876);
         System.out.println(taxiDriver);
         Car car = new Car(6532, 2019, "white", 54321,taxiDriver,busDriver);
+        System.out.println(car);
         car.go();
         car.stop();
 
